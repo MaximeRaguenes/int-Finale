@@ -1,0 +1,135 @@
+@font-face {
+font-family: 'textes';
+src: url('fonts/textes/partybusiness.ttf');
+
+}
+
+@font-face {
+font-family: 'titres';
+src: url('fonts/titres/anirm.ttf');
+
+}
+
+@font-face {
+font-family: 'symboles';
+src: url('fonts/Symboles/tngani.ttf');
+}
+
+.container-fluid{
+    padding : 0px !important;
+}
+
+.logo{
+    margin-top: 1em;
+}
+
+.navbar{
+    background-color: #FF5F01;
+    font-family: 'titres';
+    font-size: 1.2em;
+    
+}
+
+.nav-item{
+    color: white;
+    border-right: 0.1em white solid;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+
+}
+
+.navNoBorder{
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+}
+
+.nav-item:hover, .navNoBorder:hover{
+    border-bottom: white 5px solid;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.please{
+    font-family: 'textes';
+    font-size: 5.5em;
+    text-align: center;
+}
+
+.p{
+    font-family: 'textes';
+    font-size: 4em;
+    padding-bottom: 2.4em;
+}
+
+.alive{
+    font-size: 0.6em;
+    font-family: 'titres'
+}
+
+.dead{
+    font-size: 3em;
+    font-family: 'titres';
+    text-align: center;
+}
+
+.dead, .alive{
+    color: black;
+}
+
+.smbl{
+    font-family: 'Symboles';
+    color: #FF5F01
+}
+
+.fellows{
+    padding-top: 2.5em;
+    background-color: #F1EEE7;
+}
+
+.gandalf{
+    position: absolute;
+}
+
+.reward{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.788);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-family: 'textes';
+    
+}
+
+.mostw, .mostd, alrd{
+    text-decoration: none;
+}
+
+a .mostw, a .mostd, a .alrd{
+    font-family: 'titres';
+    color: #000000;
+    text-align: center;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.linka, .linkb, .linkc{
+    margin-left: 2.5em;
+}
+
+.linka:hover, .linkb:hover, .linkc:hover{
+    border-bottom: #FF5F01 3px solid;
+    text-decoration: none;
+}
+
+.smblw{
+    font-family: 'textes';
+    color: #FF5F01;
+    font-size: 2em;
+}
+
+.gold{
+    color: #FF6702;
+}
+
