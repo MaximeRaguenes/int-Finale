@@ -1,112 +1,113 @@
 @font-face {
-font-family: 'textes';
-src: url('fonts/textes/partybusiness.ttf');
-
+    font-family: 'textes';
+    src: url('fonts/textes/partybusiness.ttf');
 }
 
 @font-face {
-font-family: 'titres';
-src: url('fonts/titres/anirm.ttf');
-
+    font-family: 'titres';
+    src: url('fonts/titres/anirm.ttf');
 }
 
 @font-face {
-font-family: 'symboles';
-src: url('fonts/Symboles/tngani.ttf');
+    font-family: 'symboles';
+    src: url('fonts/Symboles/tngani.ttf');
 }
 
-.container-fluid{
-    padding : 0px !important;
+.container-fluid {
+    padding: 0px !important;
 }
 
-.logo{
+.logo {
     margin-top: 1em;
 }
 
-.navbar{
+.navbar {
     background-color: #FF5F01;
     font-family: 'titres';
-    font-size: 1.2em;
-    
+    font-size: 1.5em;
 }
 
-.nav-item{
+.nav-item {
     color: white;
     border-right: 0.1em white solid;
     text-decoration: none;
     padding: .5rem 1.5rem;
-
 }
 
-.navNoBorder{
+.navNoBorder {
     color: white;
     text-decoration: none;
     padding: .5rem 1.5rem;
 }
 
-.nav-item:hover, .navNoBorder:hover{
+.nav-item:hover,
+.navNoBorder:hover {
     border-bottom: white 5px solid;
     color: white;
     text-decoration: none;
     list-style-type: none;
 }
 
-.please{
+.please {
     font-family: 'textes';
     font-size: 5.5em;
     text-align: center;
 }
 
-.p{
+.p {
     font-family: 'textes';
     font-size: 4em;
     padding-bottom: 2.4em;
 }
 
-.alive{
+.alive {
     font-size: 0.6em;
     font-family: 'titres'
 }
 
-.dead{
+.dead {
     font-size: 3em;
     font-family: 'titres';
     text-align: center;
 }
 
-.dead, .alive{
+.dead,
+.alive {
     color: black;
 }
 
-.smbl{
+.smbl {
     font-family: 'Symboles';
     color: #FF5F01
 }
 
-.fellows{
+.fellows {
     padding-top: 2.5em;
     background-color: #F1EEE7;
 }
 
-.gandalf{
+.gandalf {
     position: absolute;
 }
 
-.reward{
+.reward {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.788);
     text-align: center;
     position: relative;
     display: inline-block;
     font-family: 'textes';
-    
 }
 
-.mostw, .mostd, alrd{
+.mostw,
+.mostd,
+alrd {
     text-decoration: none;
 }
 
-a .mostw, a .mostd, a .alrd{
+a .mostw,
+a .mostd,
+a .alrd {
     font-family: 'titres';
     color: #000000;
     text-align: center;
@@ -114,22 +115,130 @@ a .mostw, a .mostd, a .alrd{
     text-decoration: none;
 }
 
-.linka, .linkb, .linkc{
+.linka,
+.linkb,
+.linkc {
     margin-left: 2.5em;
 }
 
-.linka:hover, .linkb:hover, .linkc:hover{
+.linka:hover,
+.linkb:hover,
+.linkc:hover {
     border-bottom: #FF5F01 3px solid;
     text-decoration: none;
 }
 
-.smblw{
+.smblw {
     font-family: 'textes';
     color: #FF5F01;
     font-size: 2em;
 }
 
-.gold{
+.gold {
     color: #FF6702;
 }
 
+.card {
+    float: left;
+    height: 495px;
+    width: 312px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    background: #131313 !important;
+}
+
+.card-img-top {
+    opacity: 0.5;
+}
+
+.container {
+    position: absolute;
+    height: 270px;
+    width: 240px;
+}
+
+.container:hover {
+    opacity: 1;
+}
+
+.wanted2 {
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    margin: 25px 35px;
+    position: absolute;
+    font-size: 1.6em;
+    font-family: 'textes';
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.wanted3 {
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    margin: 25px 35px;
+    padding: 20px 0px;
+    position: absolute;
+    font-size: 5em;
+    font-family: 'textes';
+}
+
+.price {
+    color: #FF8C00;
+}
+
+.container:hover .wanted2 {
+    opacity: 0;
+}
+
+.container:hover .wanted3 {
+    opacity: 0;
+}
+
+.name {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: -15px;
+    padding: 200px 0px 89px 0px;
+    width: 312px;
+    font-family: 'textes';
+    color: white;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.container:hover .name {
+    transition: 0.5s;
+    width: 312px;
+    padding: 310px 0px 26px 0px;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.deadg {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: -15px;
+    padding: 200px 0px 89px 0px;
+    width: 312px;
+    font-family: 'textes';
+    color: white;
+    font-size: 2.8em;
+    text-align: center;
+    text-decoration: line-through orange;
+}
+
+.container:hover .deadg {
+    transition: 0.5s;
+    width: 312px;
+    padding: 310px 0px 26px 0px;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.card-text {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'textes';
+}
